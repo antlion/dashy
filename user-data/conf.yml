@@ -7,9 +7,7 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  theme: colorful
-  layout: auto
-  iconSize: medium
+  theme: dashy-docs
 sections:
   - name: Getting Started
     icon: fas fa-rocket
@@ -60,6 +58,7 @@ sections:
       - *ref_4
       - *ref_5
   - name: Smartphone
+    icon: fa-phone
     displayData:
       sortBy: default
       rows: 1
@@ -68,9 +67,10 @@ sections:
       hideForGuests: false
     items:
       - &ref_6
-        title: Pairdrop
+        title: Pairdorp
+        icon: https://www.myqnap.org/wp-content/uploads/pairdrop-logo.png
         url: https://pairdrop.net/
         target: newtab
-        id: 0_1057_pairdrop
+        id: 0_1057_pairdorp
     filteredItems:
       - *ref_6
