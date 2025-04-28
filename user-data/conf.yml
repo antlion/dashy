@@ -56,3 +56,28 @@ sections:
       - *ref_1
       - *ref_2
       - *ref_3
+  - name: BADGE
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_4
+        title: PERCONA
+        description: lista badge sync wam
+        icon: >-
+          https://cdn0.iconfinder.com/data/icons/stationery-46/128/card-holder-badge-tag-identification-512.png
+        url: https://www-localservices.infn.it/badges/lista_badges.php
+        id: 0_339_percona
+      - &ref_5
+        title: SYNC BADGES
+        description: forza sync badge godiva cardpresso
+        icon: >-
+          https://cdn0.iconfinder.com/data/icons/stationery-46/128/card-holder-badge-tag-identification-512.png
+        url: http://www.infn.it/badges/load_badges.php
+        id: 1_339_syncbadges
+    filteredItems:
+      - *ref_4
+      - *ref_5
