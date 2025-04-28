@@ -9,12 +9,50 @@ pageInfo:
 appConfig:
   theme: dashy-docs
 sections:
-  - name: TETS
+  - name: OKD
     displayData:
       sortBy: default
       rows: 1
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
-    filteredItems: []
+    items:
+      - &ref_0
+        title: OKD CALCOLO TEST
+        description: okd interno test
+        icon: >-
+          https://p7.hiclipart.com/preview/540/370/392/openshift-red-hat-kubernetes-docker-microsoft-azure-cloud-computing.jpg
+        url: https://console-openshift-console.apps.okd-test.lnf.infn.it/dashboards
+        target: newtab
+        id: 0_222_okdcalcolotest
+      - &ref_1
+        title: OKD CALCOLO PROD
+        description: okd interno prod
+        icon: >-
+          https://p7.hiclipart.com/preview/540/370/392/openshift-red-hat-kubernetes-docker-microsoft-azure-cloud-computing.jpg
+        url: https://console-openshift-console.apps.okd.lnf.infn.it/dashboards
+        target: newtab
+        id: 1_222_okdcalcoloprod
+      - &ref_2
+        title: OKD USERPORTAL TEST
+        description: okd fasanelli test
+        icon: >-
+          https://p7.hiclipart.com/preview/540/370/392/openshift-red-hat-kubernetes-docker-microsoft-azure-cloud-computing.jpg
+        url: https://okd.app-dev.infn.it:8443/console/catalog
+        target: newtab
+        id: 2_222_okduserportaltest
+      - &ref_3
+        title: OKD USERPORTAL PROD
+        description: okd fasanelli prod
+        icon: >-
+          https://p7.hiclipart.com/preview/540/370/392/openshift-red-hat-kubernetes-docker-microsoft-azure-cloud-computing.jpg
+        url: https://console-openshift-console.apps.prod.ocp.infn.it/dashboards
+        target: newtab
+        id: 3_222_okduserportalprod
+    icon: >-
+      https://p7.hiclipart.com/preview/540/370/392/openshift-red-hat-kubernetes-docker-microsoft-azure-cloud-computing.jpg
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
