@@ -81,3 +81,28 @@ sections:
     filteredItems:
       - *ref_4
       - *ref_5
+  - name: INFN APP
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_6
+        title: USERPORTAL TEST
+        description: test
+        icon: https://cdn.worldvectorlogo.com/logos/portal-9.svg
+        url: https://userportal.app.infn.it/
+        target: newtab
+        id: 0_556_userportaltest
+      - &ref_7
+        title: USERPORTAL PROD
+        description: prod
+        icon: https://cdn.worldvectorlogo.com/logos/portal-9.svg
+        url: https://userportal.app.infn.it/
+        target: newtab
+        id: 1_556_userportalprod
+    filteredItems:
+      - *ref_6
+      - *ref_7
