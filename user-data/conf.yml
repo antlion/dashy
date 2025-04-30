@@ -106,3 +106,19 @@ sections:
     filteredItems:
       - *ref_6
       - *ref_7
+  - name: STAMPA3D
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_8
+        title: MAKERWORLD
+        icon: si-bambulab
+        url: https://makerworld.com/en
+        target: newtab
+        id: 0_573_makerworld
+    filteredItems:
+      - *ref_8
