@@ -106,7 +106,7 @@ sections:
     filteredItems:
       - *ref_6
       - *ref_7
-  - name: STAMPA3D
+  - name: FINANZA
     displayData:
       sortBy: default
       rows: 1
@@ -115,35 +115,11 @@ sections:
       hideForGuests: false
     items:
       - &ref_8
-        title: MAKERWORLD
-        icon: si-bambulab
-        url: https://makerworld.com/en
+        title: Spendee
+        icon: >-
+          https://play-lh.googleusercontent.com/WQqb62wAATnxR8jGsECCUVluKUc9-5pKaX9IfTZywsG_815L0OHOtxgzFeK5ylD-Obts=w240-h480-rw
+        url: https://app.spendee.com/dashboard
         target: newtab
-        id: 0_573_makerworld
+        id: 0_519_spendee
     filteredItems:
       - *ref_8
-  - name: API
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-    items:
-      - &ref_9
-        title: API SITE ACCESS
-        description: prod
-        icon: si-httpie
-        url: api.app.infn.it/site-access/v3/api-docs
-        target: newtab
-        id: 0_218_apisiteaccess
-      - &ref_10
-        title: API SITE ACCESS
-        description: Test
-        icon: si-httpie
-        url: api.app.infn.it/identity/v3/api-docs
-        target: newtab
-        id: 1_218_apisiteaccess
-    filteredItems:
-      - *ref_9
-      - *ref_10
