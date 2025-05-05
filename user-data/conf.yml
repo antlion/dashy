@@ -115,10 +115,9 @@ sections:
       hideForGuests: false
     items:
       - &ref_8
-        title: Spendee
-        icon: >-
-          https://play-lh.googleusercontent.com/WQqb62wAATnxR8jGsECCUVluKUc9-5pKaX9IfTZywsG_815L0OHOtxgzFeK5ylD-Obts=w240-h480-rw
-        url: https://app.spendee.com/dashboard
+        title: BudgetBakers
+        icon: https://web-new.budgetbakers.com/wallet/logo-image-only.svg
+        url: https://web-new.budgetbakers.com/it-IT/dashboard
         target: newtab
         id: 0_519_spendee
     filteredItems:
