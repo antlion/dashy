@@ -8,6 +8,8 @@ pageInfo:
       path: https://dashy.to/docs
 appConfig:
   theme: dashy-docs
+  layout: auto
+  iconSize: medium
 sections:
   - name: OKD
     displayData:
@@ -119,6 +121,32 @@ sections:
         icon: https://web-new.budgetbakers.com/wallet/logo-image-only.svg
         url: https://web-new.budgetbakers.com/it-IT/dashboard
         target: newtab
-        id: 0_519_spendee
+        id: 0_519_budgetbakers
     filteredItems:
       - *ref_8
+  - name: BADGE INFN
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_9
+        title: Lista Badge
+        description: badge su percona
+        icon: >-
+          https://png.pngtree.com/png-clipart/20191120/original/pngtree-credit-or-debit-card-icon-png-image_5060875.jpg
+        url: https://www-localservices.infn.it/badges/lista_badges.php
+        target: newtab
+        id: 0_670_listabadge
+      - &ref_10
+        title: Sync Badge
+        description: su percona
+        icon: >-
+          https://png.pngtree.com/png-clipart/20191120/original/pngtree-credit-or-debit-card-icon-png-image_5060875.jpg
+        url: http://www.infn.it/badges/load_badges.php
+        id: 1_670_syncbadge
+    filteredItems:
+      - *ref_9
+      - *ref_10
