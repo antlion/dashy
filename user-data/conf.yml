@@ -192,3 +192,27 @@ sections:
         id: 0_432_argocd
     filteredItems:
       - *ref_13
+  - name: API
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_14
+        title: BOOKING
+        description: Prod
+        icon: generative
+        url: https://api.dsi.infn.it/booking/api-docs
+        target: newtab
+        id: 0_218_booking
+      - &ref_15
+        title: Booking
+        description: Test
+        icon: generative
+        url: https://api-test.dsi.infn.it/booking/api-docs
+        id: 1_218_booking
+    filteredItems:
+      - *ref_14
+      - *ref_15
