@@ -175,3 +175,20 @@ sections:
     filteredItems:
       - *ref_11
       - *ref_12
+  - name: ARGOCD
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_13
+        title: 'ARGOCD '
+        description: Prod bovina
+        icon: si-argo
+        url: https://argocd.dsi.infn.it/
+        target: newtab
+        id: 0_432_argocd
+    filteredItems:
+      - *ref_13
