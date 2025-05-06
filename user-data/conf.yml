@@ -9,7 +9,7 @@ pageInfo:
 appConfig:
   theme: dashy-docs
   layout: auto
-  iconSize: medium
+  iconSize: large
 sections:
   - name: OKD
     displayData:
@@ -150,3 +150,28 @@ sections:
     filteredItems:
       - *ref_9
       - *ref_10
+  - name: Phoebus
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_11
+        title: Phoebus Github
+        description: repository
+        icon: generative
+        url: https://github.com/ControlSystemStudio/phoebus
+        target: sametab
+        id: 0_726_phoebusgithub
+      - &ref_12
+        title: Phobus DOC
+        description: documentation
+        icon: generative
+        url: https://control-system-studio.readthedocs.io/en/latest/
+        target: newtab
+        id: 1_726_phobusdoc
+    filteredItems:
+      - *ref_11
+      - *ref_12
