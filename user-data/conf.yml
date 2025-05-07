@@ -180,8 +180,16 @@ sections:
         url: https://argocd.dsi.infn.it/
         target: newtab
         id: 0_432_argocd
+      - &ref_14
+        title: ARGOCD
+        description: Test Bovina
+        icon: si-argo
+        url: https://argocd-test.dsi.infn.it/
+        target: newtab
+        id: 1_432_argocd
     filteredItems:
       - *ref_13
+      - *ref_14
   - name: API
     displayData:
       sortBy: default
@@ -190,19 +198,19 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_14
+      - &ref_15
         title: BOOKING
         description: Prod
         icon: generative
         url: https://api.dsi.infn.it/booking/api-docs
         target: newtab
         id: 0_218_booking
-      - &ref_15
+      - &ref_16
         title: Booking
         description: Test
         icon: generative
         url: https://api-test.dsi.infn.it/booking/api-docs
         id: 1_218_booking
     filteredItems:
-      - *ref_14
       - *ref_15
+      - *ref_16
