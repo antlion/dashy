@@ -214,3 +214,19 @@ sections:
     filteredItems:
       - *ref_15
       - *ref_16
+  - name: UTILS PROG
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_17
+        title: Maven Central
+        icon: si-apachemaven
+        url: https://mvnrepository.com/
+        target: newtab
+        id: 0_745_mavencentral
+    filteredItems:
+      - *ref_17
