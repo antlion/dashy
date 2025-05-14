@@ -133,11 +133,12 @@ sections:
       hideForGuests: false
     items:
       - &ref_10
-        title: BudgetBakers
-        icon: https://web-new.budgetbakers.com/wallet/logo-image-only.svg
-        url: https://web-new.budgetbakers.com/it-IT/dashboard
+        title: Cashew
+        icon: >-
+          https://play-lh.googleusercontent.com/Ih41AetGaZgCS8MMhCXYcKeSULhKTIFVVjK4WMl3mfRICiNUr4HRdebF1aJePvXYdT8
+        url: https://budget-track.web.app/
         target: newtab
-        id: 0_519_budgetbakers
+        id: 0_519_cashew
     filteredItems:
       - *ref_10
   - name: Phoebus
