@@ -188,9 +188,18 @@ sections:
         url: https://argocd-test.dsi.infn.it/
         target: newtab
         id: 1_432_argocd
+      - &ref_15
+        title: ARGOCD
+        description: MICHELOTTI
+        icon: si-argo
+        url: >-
+          https://argocd-server-argocd.apps.okd-datest.lnf.infn.it/login?return_url=https%3A%2F%2Fargocd-server-argocd.apps.okd-datest.lnf.infn.it%2Fapplications%3FshowFavorites%3Dfalse%26proj%3D%26sync%3D%26autoSync%3D%26health%3D%26namespace%3D%26cluster%3D%26labels%3D
+        target: newtab
+        id: 2_432_argocd
     filteredItems:
       - *ref_13
       - *ref_14
+      - *ref_15
   - name: API
     displayData:
       sortBy: default
@@ -199,22 +208,22 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_15
+      - &ref_16
         title: BOOKING
         description: Prod
         icon: generative
         url: https://api.dsi.infn.it/booking/api-docs
         target: newtab
         id: 0_218_booking
-      - &ref_16
+      - &ref_17
         title: Booking
         description: Test
         icon: generative
         url: https://api-test.dsi.infn.it/booking/api-docs
         id: 1_218_booking
     filteredItems:
-      - *ref_15
       - *ref_16
+      - *ref_17
   - name: UTILS PROG
     displayData:
       sortBy: default
@@ -223,11 +232,11 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - &ref_17
+      - &ref_18
         title: Maven Central
         icon: si-apachemaven
         url: https://mvnrepository.com/
         target: newtab
         id: 0_745_mavencentral
     filteredItems:
-      - *ref_17
+      - *ref_18
